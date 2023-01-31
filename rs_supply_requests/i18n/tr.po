@@ -1,0 +1,170 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* rs_supply_requests
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-21 12:29+0000\n"
+"PO-Revision-Date: 2022-11-21 12:29+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__product_id
+msgid " Product ID"
+msgstr "Ürün ID"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__subvendor_id
+msgid " Subvendor ID"
+msgstr "Alt Tedarikci ID"
+
+#. module: rs_supply_requests
+#: model_terms:ir.ui.view,arch_db:rs_supply_requests.view_supply_requests_tree
+msgid "Create Purchase Order"
+msgstr "Satınalma Oluştur"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__currency_id
+msgid "Currency ID"
+msgstr ""
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__customer
+msgid "Customer"
+msgstr "Müşteri"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_purchase_order_line__sol_id
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__id
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__so_line_id
+msgid "ID"
+msgstr ""
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__imports_note
+msgid "Imports Note"
+msgstr "İthalat Notu"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__product_name
+msgid "Product Name"
+msgstr "Ürün Adı"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__product_uom_id
+msgid "Product UOM ID"
+msgstr ""
+
+#. module: rs_supply_requests
+#: model:ir.model,name:rs_supply_requests.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Satınalma Sipariş Satırı"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__purchase_price
+msgid "Purchase Price"
+msgstr "Satınalma Fiyatı"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__quantity
+msgid "Quantity"
+msgstr "Miktar"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__so_reference
+msgid "SO Ref"
+msgstr ""
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__sale_price
+msgid "Sale Price"
+msgstr "Satış Fiyatı"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__sale_reference_id
+msgid "Sale Reference"
+msgstr "Satış Referansı"
+
+#. module: rs_supply_requests
+#: model:ir.model,name:rs_supply_requests.model_sale_order
+msgid "Sales Order"
+msgstr "Satış Siparişi"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__salesperson
+msgid "Salesperson"
+msgstr "Müşteri Temsilcisi"
+
+#. module: rs_supply_requests
+#: model_terms:ir.ui.view,arch_db:rs_supply_requests.sale_order_line_view_form_inherit
+msgid "Send Supply Page"
+msgstr "Satınalma Talebi Gönder"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__status
+msgid "Status"
+msgstr "Durum"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__subtotal
+msgid "Subtotal"
+msgstr "Ara Toplam"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__subvendor
+msgid "Subvendor"
+msgstr "Alt Tedarikçi"
+
+#. module: rs_supply_requests
+#: model:ir.actions.act_window,name:rs_supply_requests.action_supply_requests
+#: model:ir.model,name:rs_supply_requests.model_supply_requests
+#: model:ir.ui.menu,name:rs_supply_requests.menu_supply_requests
+msgid "Supply Requests"
+msgstr "Satınalma Talepleri"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__vendor
+msgid "Vendor"
+msgstr "Tedarikçi"
+
+#. module: rs_supply_requests
+#: model:ir.model.fields,field_description:rs_supply_requests.field_supply_requests__vendor_id
+msgid "Vendor ID"
+msgstr "Tedarikci ID"

@@ -1,0 +1,37 @@
+<odoo>
+  <data>
+
+    <record model="ir.ui.view" id="view_supply_requests_tree">
+      <field name="name">supply.requests.tree</field>
+      <field name="model">supply.requests</field>
+      <field name="arch" type="xml">
+        <tree>
+          <header>
+            <button name="create_purchase_order"  string="Create Purchase Order" type="object" attrs="{'always_visible': True}" />
+          </header>
+          <field name="so_reference"/>
+          <field name="product_name"/>
+          <field name="sale_price"/>
+          <field name="subtotal"/>
+          <field name="customer" optional='hide'/>
+          <field name="salesperson" optional='hide'/>
+        </tree>
+      </field>
+    </record>
+ 
+   <record id="action_supply_requests" model="ir.actions.act_window">
+        <field name="name">Supply Requests</field>
+        <field name="res_model">supply.requests</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem
+        id="menu_supply_requests"
+        action="action_supply_requests"
+        name="Supply Requests" 
+        parent="purchase.menu_procurement_management" 
+        sequence="100"/>
+        
+  </data>
+</odoo>
