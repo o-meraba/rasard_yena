@@ -3,20 +3,19 @@
     'name': "rs_supply_requests",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Sale  Order to Purchase Order""",
 
     'description': """
-        Long description of module's purpose
+        SO2REQ > REQ2PO
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Rasard Technology",
+    'website': "http://rasard.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
-    'category': 'Uncategorized',
+    'category': 'sale_management',
     'version': '0.1',
 
     # any module necessary for this one to work correctly
@@ -28,5 +27,6 @@
         'views/supply_requests_views.xml',
         'views/sale_views.xml',
     ],
+    "installable": True,
     
 }
