@@ -37,7 +37,7 @@ class SupplyRequests(models.Model):
         so_references_unique_list = (list(so_reference_list_set)) # create a uniq list for vendors
         if(len(so_references_unique_list)==1):
             purchase_order_q = self.env['purchase.order'].create({
-                                                        'partner_id':41,
+                                                        'partner_id':94743,
                                                         'origin':"",
                                                         'x_customer_ref':self[0].x_customer_reference,
                                                         'x_project_purchase':self[0].x_project_sales['id'],
